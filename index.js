@@ -61,6 +61,7 @@ const reviews = [{name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and
 
 /* Task 3: Console.log just Julius' feedback */
 
+
 console.log(reviews[5].feedback);
 
 /* Task 4: Add a new rating with your (fictitious) opinions of the restaurant in the same format as the reviews above. */
@@ -127,8 +128,13 @@ console.log(getLastReview(reviews));
     {name:"Lauren", rating: 4, feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."}]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
+ function getReviewByRating(array, targetRating ) {
+      
+       for(let rating in reviews){
+         if(rating === 5){
+           
+         }
+       }
   }
 
   
